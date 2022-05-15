@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Como Concept</title>  
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index">
+<meta name="description" content="Italian luxury and lifestyle design">
+<meta property="og:title" content="Como Concept">
+<meta property="og:description" content="Italian luxury and lifestyle design">
+<meta property="og:url" content="https://comoconcept.com">
+<meta property="og:site_name" content="Como Concept">
+<meta property="og:type" content="website">
+<meta name="author" content="Como Concept">
+<meta name="keywords" content="Italian,Luxury,Lifestyle,Design,Architecture,Interiors">
+<meta name="theme-color" content="#C9AF67">
+<meta name="msapplication-TileColor" content="#C9AF67">  
+<script src="https://cdn.tailwindcss.com"></script>  
+<link rel="canonical" href="https://comoconcept.com">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+  
+body { margin: 0; padding: 0; background: #f3f4f6; font-family: 'Roboto Slab', serif; }
+img { width:300px; top: 50%; left:50%; position: absolute; margin-left: -150px; margin-top: -22px; }    
+#footer { position: absolute; bottom: 20px; }  
+#header { position: absolute; top: 20px; right: 20px; color: #C9AF67; } 
+</style>
+</head>
+<body>
+<img src= "https://como.s3.amazonaws.com/comoconcept.png" /> 
+
+<a href="mailto:someone@yoursite.com"><div class="flex text-sm cursor-pointer font-semibold" id="header">
+  <p>Contact </p> </div></a>   
+   
+<div class="flex space-y-2 space-x-0 text-gray-400 text-xs ml-4 items-end" id="footer">
+<p>&copy;<span id= "copyright" ></span> comoconcept.com </p> </div>     
+</body>
+<script>
+var d = new Date();
+var n = d.getFullYear();
+document.getElementById("copyright").innerHTML = n;
+</script>  
+</html>
